@@ -1,0 +1,177 @@
+
+/* CSS styles */
+.card {
+  border: 3px solid #ccc;
+  border-radius: 5px;
+  margin: 50px auto 20px;
+  border-radius: 20px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 70%; /* Adjust width as needed */
+  max-width: 800px; /* Set a maximum width to prevent it from becoming too wide */
+  height: auto; /* Let the height adjust automatically based on content */
+}
+
+
+.blog-post .blog-content-title h1 {
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 12px;
+  margin-top: 0;
+  font-weight: 400;
+  color: #333;
+}
+
+.blog-info {
+  padding: 0 0 15px;
+}
+
+.blog-content {
+  line-height: 1.8em;
+  font-size: 16px;
+  color: #777;
+}
+
+.blog-content p {
+  margin-bottom: 20px;
+}
+
+.blog-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.blog-content .btn-download {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  background-color: #3498db;
+  border-radius: 8px;
+}
+
+.blog-content .btn-download:hover {
+  background-color: #2980b9;
+}
+
+.bb_ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.bb_ul li {
+  margin-bottom: 10px;
+}
+
+.bb_ul li:before {
+  content: "\2022";
+  color: #3498db;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.blog-content-title h1,
+.blog-content h2 {
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 12px;
+  margin-top: 24px;
+  font-weight: 400;
+  color: #333;
+}
+
+.blog-content-title h1 {
+  text-align: center;
+}
+
+.blog-content h2 {
+  text-align: center;
+}
+/* CSS styles */
+
+.blog-post .blog-content-title h1 {
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 12px;
+  margin-top: 0;
+  font-weight: 400;
+  color: #333;
+}
+
+.blog-info {
+  padding: 0 0 15px;
+}
+
+.blog-content {
+  line-height: 1.8em;
+  font-size: 16px;
+  color: #777;
+}
+
+.blog-content p {
+  margin-bottom: 20px;
+}
+
+.blog-content img {
+  max-width: 100%;
+  height: auto;
+}
+
+.blog-content .btn-download {
+  display: inline-block;
+  background-color: #009EFF;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.blog-content .btn-download:hover {
+  background-color: #009EFF;
+}
+
+.bb_ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.bb_ul li {
+  margin-bottom: 10px;
+}
+
+.bb_ul li:before {
+  content: "\2022";
+  color: #3498db;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+
+.blog-content-title h1,
+.blog-content h2 {
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 12px;
+  margin-top: 24px;
+  font-weight: 400;
+  color: #333;
+}
+
+.blog-content-title h1 {
+  text-align: center;
+}
+
+.blog-content h2 {
+  text-align: center;
+}
+/* Other styles from your original code */
