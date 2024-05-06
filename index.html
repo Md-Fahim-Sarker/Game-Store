@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Store</title>
+  <link rel="icon" href="assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>Game Store</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="product-category/pc_games.html">Pc Games</a></li>
+        <li><a href="product-category/pc_software.html">Pc Software</a></li>
+        <li><a href="product-category/mobile_games.html">Mobile Games</a></li>
+        <li><a href="product-category/mobile_software.html">Mobile Software</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+
+    <div class="slider">
+        <div class="list">
+            <div href="index.html" class="item">
+                <img src="assets/banner2.jpg" alt="">
+            </div>
+            <div onclick="changeChannel('channel1')" class="item">
+                <img src="assets/banner1.jpg" alt="">
+            </div>
+            <div onclick="changeChannel('channel2')" class="item">
+                <img src="assets/banner1.jpg" alt="">
+            </div>
+            <div href="#" class="item">
+                <img src="assets/banner2.jpg" alt="">
+            </div>
+            <div href="#" class="item">
+                <img src="assets/banner1.jpg" alt="">
+            </div>
+        </div>
+        <div class="buttons">
+            <button id="prev"><</button>
+            <button id="next">></button>
+        </div>
+        <ul class="dots">
+            <li class="active"></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+<section id="games">
+  <div class="container">
+    <h2>Pc Games</h2>
+    <div class="game">
+      <img src="assets/gtasa.png" alt="Game 1">
+      <div class="game-info">
+        <h3>Grand Theft Auto: San Andreas</h3>
+        <a href="pc-games/product-01.html" class="btn">Download</a>
+      </div>
+    </div>
+    <div class="game">
+      <img src="assets/gtavc.png" alt="Game 2">
+      <div class="game-info">
+        <h3>Grand Theft Auto: Vice City</h3>
+        <a href="pc-games/product-02.html" class="btn">Download</a>
+      </div>
+    </div>
+    <div class="game">
+      <img src="assets/gtavcbn.png" alt="Game 1">
+      <div class="game-info">
+        <h3>Grand Theft Auto: Vice City Bangla</h3>
+        <a href="pc-games/product-03.html" class="btn">Download</a>
+      </div>
+    </div>
+  <h2>Pc Software</h2>
+    <div class="game">
+      <img src="assets/pc_chrome.png" alt="Game 1">
+      <div class="game-info">
+        <h3>Chrome</h3>
+        <a href="pc-software/product-01.html" class="btn">Download</a>
+      </div>
+    </div>
+    <div class="game">
+      <img src="assets/pc_fire_fox.png" alt="Game 2">
+      <div class="game-info">
+        <h3>Firefox</h3>
+        <a href="pc-software/product-02.html" class="btn">Download</a>
+      </div>
+    </div>
+    <div class="game">
+      <img src="assets/pc_opera_gx.jpg" alt="Game 1">
+      <div class="game-info">
+        <h3>Opera GX</h3>
+        <a href="pc-software/product-03.html" class="btn">Download</a>
+      </div>
+    </div>
+  <h2>Mobile Games</h2>
+    <div class="game">
+      <img src="assets/mo_gtavc.png" alt="Game 2">
+      <div class="game-info">
+        <h3>GTA VC Android</h3>
+        <a href="mobile-games/product-01.html" class="btn">Download</a>
+      </div>
+    </div>
+    <div class="game">
+      <img src="assets/mo_hill_climb.jpg" alt="Game 1">
+      <div class="game-info">
+        <h3>Hill Climb Racing</h3>
+        <a href="mobile-games/product-02.html" class="btn">Download</a>
+      </div>
+    </div>
+    <div class="game">
+      <img src="assets/mo_Assassin.jpg" alt="Game 2">
+      <div class="game-info">
+        <h3>Assassin</h3>
+        <a href="mobile-games/product-03.html" class="btn">Download</a>
+      </div>
+    </div>
+  <h2>Mobile Software</h2>
+    <div class="game">
+      <img src="assets/pc_chrome.png" alt="Game 1">
+      <div class="game-info">
+        <h3>Chrome</h3>
+        <a href="mobile-software/product-01.html" class="btn">Download</a>
+      </div>
+    </div>
+    <div class="game">
+      <img src="assets/mo_za.jpg" alt="Game 2">
+      <div class="game-info">
+        <h3>ZArchiver Pro</h3>
+        <a href="mobile-software/product-02.html" class="btn">Download</a>
+      </div>
+    </div>
+    <div class="game">
+      <img src="assets/mo_idm.jpg" alt="Game 2">
+      <div class="game-info">
+        <h3>1DM</h3>
+        <a href="mobile-software/product-03.html" class="btn">Download</a>
+      </div>
+    </div>
+    <!-- More games can be added here -->
+  </div>
+</section>
+
+
+<script src="js/script.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
