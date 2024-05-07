@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Store</title>
+    <link rel="icon" href="../assets/favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="../css/styles.css">
+  <link rel="stylesheet" href="../css/product.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+
+<header>
+  <div class="container">
+    <h1>Game Store</h1>
+    <nav>
+      <ul>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../product-category/pc_games.html">Pc Games</a></li>
+        <li><a href="../product-category/pc_software.html">Pc Software</a></li>
+        <li><a href="../product-category/mobile_games.html">Mobile Games</a></li>
+        <li><a href="../product-category/mobile_software.html">Mobile Software</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<div class="card">
+    <div class="blog-post">
+        <div class="blog-content-title">
+            <h1>Firefox Free Download</h1>
+        </div>
+        <div class="blog-info">
+            <div class="clear"></div>
+        </div>
+        <div class="blog-content">
+            <p>Firefox Free Download PC Software in direct link.</p>
+            <h2 style="text-align: center">About The Software</h2>
+            <div id="game_area_description" class="game_area_description">
+                <p>Firefox is a popular web browser developed by Mozilla Corporation. It's known for its speed, privacy features, and customization options. Firefox supports various platforms including Windows, macOS, Linux, and mobile devices. Key features include tabbed browsing, built-in privacy controls, extension support, and synchronization across devices. It's often praised for its commitment to user privacy and open-source development model.</p>
+            </div>
+            <h2 style="text-align: center">How to Download & Install Firefox</h2>
+            <ol>
+                <li>Click the Download button below.</li>
+                <li>Now let the download begin and wait for it to finish.</li>
+                <li>Run the Installer: Once the download is complete, locate the downloaded file (usually in your Downloads folder) and double-click on it to run the installer.</li>
+                <li>Follow Installation Prompts: The Firefox Setup wizard will appear. Follow the prompts to proceed with the installation. You can choose the installation location and whether you want Firefox to be your default browser.
+
+</li>
+                <li>Complete Installation: Once the installation is complete, you can launch Firefox by double-clicking its icon on the desktop or finding it in the Start menu.
+
+</li>
+            </ol>
+            <h2 style="text-align: center">Firefox Free Download</h2>
+            <p>Click the download button below to start Firefox Free Download with direct link. It is the full version of the game. Don&rsquo;t forget to run the software as administrator.</p>
+            
+            <p style="text-align: center"><a id="downloadBtn" class="btn"><i class="fas fa-download"></i> Download</a></p>
+            <h2 style="text-align: center">System Requirements</h2>
+            <ul class="bb_ul">
+                <li><strong>OS:</strong> Windows 7 or later</li>
+                <li><strong>Processor:</strong> Pentium 4 or later, or any AMD processor that supports SSE2</li>
+                <li><strong>Memory:</strong> 512 MB minimum (2 GB recommended for better performance)</li>
+                <li><strong>Hard Drive:</strong> 200 MB of available hard drive space</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<script>
+document.getElementById("downloadBtn").addEventListener("click", function() {
+    // Replace 'file_url' with the actual URL of the file you want to download
+    var fileUrl = 'https://net.geo.opera.com/opera/stable/windows?utm_tryagain=yes&utm_source=google&utm_medium=ose&utm_campaign=(none)&http_referrer=https%3A%2F%2Fwww.google.com%2F&utm_site=opera_com&';
+    
+    // Create an anchor element
+    var a = document.createElement('a');
+    a.href = fileUrl;
+    
+    // Set the file name
+    a.download = 'Software_Store.zip';
+    
+    // Append the anchor element to the body
+    document.body.appendChild(a);
+    
+    // Click the anchor element programmatically
+    a.click();
+    
+    // Remove the anchor element from the body
+    document.body.removeChild(a);
+});
+</script>
+<script src="../js/script.js"></script>
+</body>
+</html>
